@@ -15,6 +15,7 @@
 		3CDCDCB425DB5C27007FEB5F /* ios_TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCB325DB5C27007FEB5F /* ios_TemperatureConverterUITests.swift */; };
 		3CDCDCC525DB5C61007FEB5F /* enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCC425DB5C60007FEB5F /* enumeration.swift */; };
 		3CDCDCCA25DB5CED007FEB5F /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCC925DB5CED007FEB5F /* extension.swift */; };
+		3CDCDCCF25DB5D5A007FEB5F /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCCE25DB5D5A007FEB5F /* functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3CDCDCB525DB5C27007FEB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CDCDCC425DB5C60007FEB5F /* enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumeration.swift; sourceTree = "<group>"; };
 		3CDCDCC925DB5CED007FEB5F /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		3CDCDCCE25DB5D5A007FEB5F /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		3CDCDC8A25DB5C23007FEB5F = {
 			isa = PBXGroup;
 			children = (
+				3CDCDCCE25DB5D5A007FEB5F /* functions.swift */,
 				3CDCDCC925DB5CED007FEB5F /* extension.swift */,
 				3CDCDCC425DB5C60007FEB5F /* enumeration.swift */,
 				3CDCDC9525DB5C23007FEB5F /* ios-TemperatureConverter */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CDCDCC525DB5C61007FEB5F /* enumeration.swift in Sources */,
+				3CDCDCCF25DB5D5A007FEB5F /* functions.swift in Sources */,
 				3CDCDC9925DB5C23007FEB5F /* ContentView.swift in Sources */,
 				3CDCDC9725DB5C23007FEB5F /* ios_TemperatureConverterApp.swift in Sources */,
 				3CDCDCCA25DB5CED007FEB5F /* extension.swift in Sources */,
