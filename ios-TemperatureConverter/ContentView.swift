@@ -7,10 +7,14 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+    @State private var fromUnit: TemperatureUnit = TemperatureUnit.kelvin
+    @State private var input:String = "10"
+    @State private var toUnit: TemperatureUnit = TemperatureUnit.kelvin
+        
     var body: some View {
-        Text("Hello, world!")
-            .padding()
     }
 }
 
