@@ -13,6 +13,7 @@
 		3CDCDC9E25DB5C27007FEB5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCDC9D25DB5C27007FEB5F /* Preview Assets.xcassets */; };
 		3CDCDCA925DB5C27007FEB5F /* ios_TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCA825DB5C27007FEB5F /* ios_TemperatureConverterTests.swift */; };
 		3CDCDCB425DB5C27007FEB5F /* ios_TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCB325DB5C27007FEB5F /* ios_TemperatureConverterUITests.swift */; };
+		3CDCDCC525DB5C61007FEB5F /* enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDCDCC425DB5C60007FEB5F /* enumeration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3CDCDCAF25DB5C27007FEB5F /* ios-TemperatureConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-TemperatureConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CDCDCB325DB5C27007FEB5F /* ios_TemperatureConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_TemperatureConverterUITests.swift; sourceTree = "<group>"; };
 		3CDCDCB525DB5C27007FEB5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CDCDCC425DB5C60007FEB5F /* enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumeration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		3CDCDC8A25DB5C23007FEB5F = {
 			isa = PBXGroup;
 			children = (
+				3CDCDCC425DB5C60007FEB5F /* enumeration.swift */,
 				3CDCDC9525DB5C23007FEB5F /* ios-TemperatureConverter */,
 				3CDCDCA725DB5C27007FEB5F /* ios-TemperatureConverterTests */,
 				3CDCDCB225DB5C27007FEB5F /* ios-TemperatureConverterUITests */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CDCDCC525DB5C61007FEB5F /* enumeration.swift in Sources */,
 				3CDCDC9925DB5C23007FEB5F /* ContentView.swift in Sources */,
 				3CDCDC9725DB5C23007FEB5F /* ios_TemperatureConverterApp.swift in Sources */,
 			);
